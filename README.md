@@ -1,7 +1,5 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Classifying Nigerian Foods
+![Ofada Rice Image](http://dooneyskitchen.com/wp-content/uploads/2014/11/Ofada-rice-2-1024x6821.jpg)
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
-
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+Link to working starlette app on render.
+[Click to test run app](https://which-food-be-this.onrender.com/)
