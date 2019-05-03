@@ -16,7 +16,7 @@ function analyze() {
     var uploadFiles = el('file-input').files;
     if (uploadFiles.length != 1) alert('Please select 1 file to analyze!');
 
-    el('analyze-button').innerHTML = 'Analyzing...';
+    el('analyze-button').innerHTML = 'I am cooking this image, just gimme a minute...';
     var xhr = new XMLHttpRequest();
     var loc = window.location
     xhr.open('POST', `${loc.protocol}//${loc.hostname}:${loc.port}/analyze`, true);
